@@ -82,6 +82,19 @@ document.addEventListener('DOMContentLoaded', () => {
       appUrl:
         "https://script.google.com/macros/s/AKfycbzsrWzDdeaO3WSSiVxw4djjKrFk2Kg7K6y1H-G7Vu8xbu_ybHvf77JsLyACmKinZc2fUA/exec", // あなたのアプリ2への実際のURLに置き換えてください
     },
+    {
+            id: "sinquiz-builder", // 例: アプリ3のID
+            name: "App⑤新練習問題（クイズ形式）",
+            description: "教科書の練習問題に、ゲーム感覚で手軽に挑戦することができます。教科書に解答を書き込んだ後も復習が可能で、問題を解きながら楽しく語彙や文法を習得できます。",
+            images: [
+                { src: "images/新クイズ初期画面.jpg", caption: "初期画面 最初の問題が表示されています。" },
+                { src: "images/新クイズ正解.jpg", caption: "解答が正しい場合は、「いいね！」というコメント付きで褒められます。" },
+                { src: "images/新クイズ不正解.jpg", caption: "解答が正しくない場合は、「もっと頑張りましょう！！」と表示されます。" },
+                { src: "images/新クイズ評価.jpg", caption: "問題をすべて回答すると成績が表示されます。学習の記録が作成されているのでクリップボードにコピーできます。" },
+                
+            ],
+            appUrl: "https://hidekitakazawa.github.io/htSinBanbanQuiz/" // あなたのアプリ3への実際のURLに置き換えてください
+        },
     ];
     // ----- ここまで編集してください -----
 
