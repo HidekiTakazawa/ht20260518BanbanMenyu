@@ -1,5 +1,5 @@
 // キャッシュするファイルの名前とバージョンを定義
-const CACHE_NAME = 'banbanmenu-app-showcase-v6';
+const CACHE_NAME = 'banbanmenu-app-showcase-v7';
 // キャッシュするファイルのリスト
 const urlsToCache = [
   './', // index.html を示す
